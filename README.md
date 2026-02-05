@@ -1,6 +1,6 @@
-# Fallout 1 Walkthrough
+# Per Jorner's (modernized) Fallout 1 Walkthrough
 
-<p>A modernized copy of the excellent Fallout 1 walkthrough written by Per Jorner.
+<p>A modernized copy of the excellent Fallout 1 walkthrough written by Per Jorner. No changes were made to the text itself.
 <p>This version also contains a backup of the original work should its source ever be lost.
 
 ---
@@ -13,8 +13,6 @@
 - Moved style elements from HTML to CSS.
 - Used more modern HTML conventions (e.g. `<b>` -> `<strong>`).
 - Reformatted the tables for readability.
-
-No changes were made to the text itself.
 
 ---
 

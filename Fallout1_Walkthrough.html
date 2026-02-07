@@ -319,13 +319,12 @@
 
       <blockquote class="red_star">
         You can access some sort of recording mode if you press
-        <span style="white-space: nowrap">Ctrl-R</span> on the starting screen.
-        You get to choose an area and run around it (with Max Stone), but you
-        can't talk to people (unless you set off some script) or manipulate
-        objects except for opening doors. This also creates a "selfrun"
-        directory in your game folder where the recording is stored. When you're
-        fed up, press <span style="white-space: nowrap">Ctrl-R</span> again to
-        return to the starting menu. If you now wait for a while, one of your
+        <kbd>Ctrl-R</kbd> on the starting screen. You get to choose an area and
+        run around it (with Max Stone), but you can't talk to people (unless you
+        set off some script) or manipulate objects except for opening doors.
+        This also creates a "selfrun" directory in your game folder where the
+        recording is stored. When you're fed up, press <kbd>Ctrl-R</kbd> again
+        to return to the starting menu. If you now wait for a while, one of your
         recordings will start playing, more or less accurately. You can use this
         feature to view a few unused (and uninteresting) maps, like the ruined
         Brotherhood bunker entrance and the Viper camp. See the Area walkthrough
@@ -1187,11 +1186,12 @@
         <li>Each point of CH: +5</li>
         <li>Each level of the Presence perk: +10</li>
         <li>Karma: +amount</li>
-        <li>Childkiller: <span style="white-space: nowrap">-10</span></li>
+        <li>Childkiller: -10</li>
         <li>Champion: +20</li>
-        <li>Berserker: <span style="white-space: nowrap">-20</span></li>
+        <li>Berserker: -20</li>
       </ul>
-      If the sum is 0 or below you get a bad reaction. If it's 51 or above you
+
+      <>If the sum is 0 or below you get a bad reaction. If it's 51 or above you
       get a favourable reaction. Everything in between is a neutral reaction.
       This calculation is made only when you first talk to a critter, although
       things you say to them may nudge the result in either direction. In the
@@ -1231,25 +1231,37 @@
         may be replaced by a more severe one.
       </p>
 
-      <p>
-        Here's a list of the penalties you may suffer. The rem figures are rough
-        approximations.
-      </p>
-
-      <p></p>
       <table>
-        <tr>
-          <td style="width: 50px"><strong>Rem</strong></td>
-          <td style="width: 180px"><strong>Message</strong></td>
-          <td style="width: 50px"><strong>HR</strong></td>
-          <td style="width: 50px"><strong>CHP</strong></td>
-          <td style="width: 50px"><strong>ST</strong></td>
-          <td style="width: 50px"><strong>PE</strong></td>
-          <td style="width: 50px"><strong>EN</strong></td>
-          <td style="width: 50px"><strong>CH</strong></td>
-          <td style="width: 50px"><strong>IN</strong></td>
-          <td style="width: 50px"><strong>AG</strong></td>
-        </tr>
+        <caption>
+          Here's a list of the penalties you may suffer. The rem figures are
+          rough approximations.
+        </caption>
+        <colgroup>
+          <col />
+          <col />
+          <col class="tabular" />
+          <col class="tabular" />
+          <col class="tabular" />
+          <col class="tabular" />
+          <col class="tabular" />
+          <col class="tabular" />
+          <col class="tabular" />
+          <col class="tabular" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Rem</th>
+            <th scope="col">Message</th>
+            <th scope="col">HR</th>
+            <th scope="col">CHP</th>
+            <th scope="col">ST</th>
+            <th scope="col">PE</th>
+            <th scope="col">EN</th>
+            <th scope="col">CH</th>
+            <th scope="col">IN</th>
+            <th scope="col">AG</th>
+          </tr>
+        </thead>
         <tr>
           <td>&gt;0</td>
           <td>"very nauseous"</td>
@@ -1267,7 +1279,7 @@
           <td>"slightly fatigued"</td>
           <td></td>
           <td></td>
-          <td><span style="white-space: nowrap">-1</span></td>
+          <td>-1</td>
           <td></td>
           <td></td>
           <td></td>
@@ -1277,50 +1289,50 @@
         <tr>
           <td>&gt;300</td>
           <td>"vomiting does not stop"</td>
-          <td><span style="white-space: nowrap">-3</span></td>
+          <td>-3</td>
           <td></td>
-          <td><span style="white-space: nowrap">-1</span></td>
-          <td></td>
-          <td></td>
+          <td>-1</td>
           <td></td>
           <td></td>
-          <td><span style="white-space: nowrap">-1</span></td>
+          <td></td>
+          <td></td>
+          <td>-1</td>
         </tr>
         <tr>
           <td>&gt;450</td>
           <td>"hair is falling out"</td>
-          <td><span style="white-space: nowrap">-5</span></td>
-          <td><span style="white-space: nowrap">-5</span></td>
-          <td><span style="white-space: nowrap">-2</span></td>
+          <td>-5</td>
+          <td>-5</td>
+          <td>-2</td>
           <td></td>
-          <td><span style="white-space: nowrap">-1</span></td>
+          <td>-1</td>
           <td></td>
           <td></td>
-          <td><span style="white-space: nowrap">-2</span></td>
+          <td>-2</td>
         </tr>
         <tr>
           <td>&gt;600</td>
           <td>"skin is falling off"</td>
-          <td><span style="white-space: nowrap">-10</span></td>
-          <td><span style="white-space: nowrap">-15</span></td>
-          <td><span style="white-space: nowrap">-4</span></td>
-          <td><span style="white-space: nowrap">-3</span></td>
-          <td><span style="white-space: nowrap">-3</span></td>
-          <td><span style="white-space: nowrap">-3</span></td>
-          <td><span style="white-space: nowrap">-1</span></td>
-          <td><span style="white-space: nowrap">-5</span></td>
+          <td>-10</td>
+          <td>-15</td>
+          <td>-4</td>
+          <td>-3</td>
+          <td>-3</td>
+          <td>-3</td>
+          <td>-1</td>
+          <td>-5</td>
         </tr>
         <tr>
           <td>&gt;1000</td>
           <td>"intense agony"</td>
-          <td><span style="white-space: nowrap">-10</span></td>
-          <td><span style="white-space: nowrap">-20</span></td>
-          <td><span style="white-space: nowrap">-6</span></td>
-          <td><span style="white-space: nowrap">-5</span></td>
-          <td><span style="white-space: nowrap">-5</span></td>
-          <td><span style="white-space: nowrap">-5</span></td>
-          <td><span style="white-space: nowrap">-3</span></td>
-          <td><span style="white-space: nowrap">-6</span></td>
+          <td>-10</td>
+          <td>-20</td>
+          <td>-6</td>
+          <td>-5</td>
+          <td>-5</td>
+          <td>-5</td>
+          <td>-3</td>
+          <td>-6</td>
         </tr>
       </table>
       <br />
@@ -1472,29 +1484,26 @@
         Here's a cheat from Michal Zalewski: "If you are at the brink of an
         impossible to win encounter, and have no other options, you can save
         your game, go to the main screen, hit
-        <span style="white-space: nowrap">Ctrl-R</span> and load an arbitrary
-        map, then load your game, walk past the combatants (they will not notice
-        your proximity) and reach safety, save again, hit
-        <span style="white-space: nowrap">Ctrl-R</span> and load the last save
-        in the normal mode. Although it is cheating, it is sometimes a better
-        option than replaying several hours of the game. If you feel
-        particularly naughty, you can plant explosives near critters or kill
-        them with Super Stimpaks. This also works if you want to avoid certain
-        scripts. The method won't work if you have already entered combat mode.
-        As a side note, there are some funny consequences to entering the combat
-        mode while in <span style="white-space: nowrap">Ctrl-R</span> - most
-        notably, it is possible to get killed, then walk away with negative HP.
-        Quite unfortunately, you will still remain flagged as dead, so if you
-        save the game and then load it in normal mode, the game will immediately
-        end even if your HP is positive. The game may get mangled in
-        <span style="white-space: nowrap">Ctrl-R</span> mode on some occasions
-        (it is possible to crash it, or be stuck in endless combat mode), but it
-        seems to be a rare glitch; once you get past
-        <span style="white-space: nowrap">Ctrl-R</span> and load the save, there
-        are no side effects as far as I could tell." Some scripts will still be
-        active in <span style="white-space: nowrap">Ctrl-R</span> mode, e.g. a
-        guard may prevent you from opening a door even if he won't attack.
-        Experiment at your own risk...
+        <kbd>Ctrl-R</kbd> and load an arbitrary map, then load your game, walk
+        past the combatants (they will not notice your proximity) and reach
+        safety, save again, hit <kbd>Ctrl-R</kbd> and load the last save in the
+        normal mode. Although it is cheating, it is sometimes a better option
+        than replaying several hours of the game. If you feel particularly
+        naughty, you can plant explosives near critters or kill them with Super
+        Stimpaks. This also works if you want to avoid certain scripts. The
+        method won't work if you have already entered combat mode. As a side
+        note, there are some funny consequences to entering the combat mode
+        while in <kbd>Ctrl-R</kbd> - most notably, it is possible to get killed,
+        then walk away with negative HP. Quite unfortunately, you will still
+        remain flagged as dead, so if you save the game and then load it in
+        normal mode, the game will immediately end even if your HP is positive.
+        The game may get mangled in <kbd>Ctrl-R</kbd> mode on some occasions (it
+        is possible to crash it, or be stuck in endless combat mode), but it
+        seems to be a rare glitch; once you get past <kbd>Ctrl-R</kbd> and load
+        the save, there are no side effects as far as I could tell." Some
+        scripts will still be active in <kbd>Ctrl-R</kbd> mode, e.g. a guard may
+        prevent you from opening a door even if he won't attack. Experiment at
+        your own risk...
       </blockquote>
 
       <hr />
@@ -5577,90 +5586,102 @@
         with depending on your tag skills.
       </blockquote>
 
-      <p>Armour:</p>
-
-      <p></p>
       <table>
-        <tr>
-          <td style="width: 200px"><strong>Name</strong></td>
-          <td style="width: 200px"><strong>Location</strong></td>
-          <td style="width: 60px"><strong>AC</strong></td>
-          <td style="width: 60px"><strong>DT</strong></td>
-          <td style="width: 60px"><strong>DR</strong></td>
-          <td style="width: 100px"><strong>Rad. Resist.</strong></td>
-        </tr>
-        <tr>
-          <td>Robes</td>
-          <td>Hub (hospital), Boneyard (library)</td>
-          <td>5</td>
-          <td>0</td>
-          <td>20</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Leather Jacket</td>
-          <td>Shady Sands (Ian), Vault 15</td>
-          <td>8</td>
-          <td>0</td>
-          <td>20</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Leather Armor</td>
-          <td>Raiders</td>
-          <td>15</td>
-          <td>2</td>
-          <td>25</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Metal Armor</td>
-          <td>Raiders (Garl), Junktown (gambler)</td>
-          <td>10</td>
-          <td>4</td>
-          <td>30</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Combat Armor</td>
-          <td>Hub (Jacob), Glow</td>
-          <td>20</td>
-          <td>5</td>
-          <td>40</td>
-          <td>20</td>
-        </tr>
-        <tr>
-          <td>Brotherhood Armor</td>
-          <td>Brotherhood</td>
-          <td>20</td>
-          <td>8</td>
-          <td>40</td>
-          <td>20</td>
-        </tr>
-        <tr>
-          <td>Tesla Armor</td>
-          <td>Cathedral</td>
-          <td>15</td>
-          <td>4</td>
-          <td>20</td>
-          <td>20</td>
-        </tr>
-        <tr>
-          <td>Powered Armor</td>
-          <td>Brotherhood</td>
-          <td>25</td>
-          <td>12</td>
-          <td>40</td>
-          <td>30</td>
-        </tr>
-        <tr>
-          <td>Hardened Power Armor</td>
-          <td>Boneyard (Miles)</td>
-          <td>25</td>
-          <td>13</td>
-          <td>50</td>
-          <td>30</td>
-        </tr>
+        <caption>
+          Armour:
+        </caption>
+        <colgroup>
+          <col />
+          <col />
+          <col class="tabular" />
+          <col class="tabular" />
+          <col class="tabular" />
+          <col class="tabular" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Location</th>
+            <th scope="col">AC</th>
+            <th scope="col">DT</th>
+            <th scope="col">DR</th>
+            <th scope="col">Rad. Resist.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Robes</td>
+            <td>Hub (hospital), Boneyard (library)</td>
+            <td>5</td>
+            <td>0</td>
+            <td>20</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Leather Jacket</td>
+            <td>Shady Sands (Ian), Vault 15</td>
+            <td>8</td>
+            <td>0</td>
+            <td>20</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Leather Armor</td>
+            <td>Raiders</td>
+            <td>15</td>
+            <td>2</td>
+            <td>25</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Metal Armor</td>
+            <td>Raiders (Garl), Junktown (gambler)</td>
+            <td>10</td>
+            <td>4</td>
+            <td>30</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Combat Armor</td>
+            <td>Hub (Jacob), Glow</td>
+            <td>20</td>
+            <td>5</td>
+            <td>40</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Brotherhood Armor</td>
+            <td>Brotherhood</td>
+            <td>20</td>
+            <td>8</td>
+            <td>40</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Tesla Armor</td>
+            <td>Cathedral</td>
+            <td>15</td>
+            <td>4</td>
+            <td>20</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Powered Armor</td>
+            <td>Brotherhood</td>
+            <td>25</td>
+            <td>12</td>
+            <td>40</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>Hardened Power Armor</td>
+            <td>Boneyard (Miles)</td>
+            <td>25</td>
+            <td>13</td>
+            <td>50</td>
+            <td>30</td>
+          </tr>
+        </tbody>
       </table>
 
       <blockquote class="green_star">
@@ -5685,397 +5706,410 @@
         The two types of power armour raise your ST by 3 to a maximum of 10.
       </blockquote>
 
-      <p>Weapons:</p>
-
-      <p></p>
       <table>
-        <tr>
-          <td style="width: 200px"><strong>Name</strong></td>
-          <td style="width: 200px"><strong>Location</strong></td>
-          <td style="width: 60px"><strong>Damage</strong></td>
-          <td style="width: 60px"><strong>Ammo</strong></td>
-          <td style="width: 60px"><strong>Clip</strong></td>
-          <td style="width: 60px"><strong>AP</strong></td>
-          <td style="width: 60px"><strong>Skill</strong></td>
-        </tr>
-        <tr>
-          <td>Rock</td>
-          <td>Shady Sands</td>
-          <td>1-4</td>
-          <td></td>
-          <td></td>
-          <td>4/3</td>
-          <td>Thr/Un</td>
-        </tr>
-        <tr>
-          <td>Flare</td>
-          <td>Vault 13</td>
-          <td>1-1</td>
-          <td></td>
-          <td></td>
-          <td>1</td>
-          <td>Thr</td>
-        </tr>
-        <tr>
-          <td>Throwing Knife</td>
-          <td>(Vault 13), Raiders</td>
-          <td>3-6</td>
-          <td></td>
-          <td></td>
-          <td>5/4</td>
-          <td>Thr/Me W</td>
-        </tr>
-        <tr>
-          <td>Spear</td>
-          <td>Shady Sands (Aradesh), Raiders</td>
-          <td>3-10</td>
-          <td></td>
-          <td></td>
-          <td>4/6</td>
-          <td>Me W/Thr</td>
-        </tr>
-        <tr>
-          <td>Brass Knuckles</td>
-          <td>(Vault 13), Hub (Beth)</td>
-          <td>2-5</td>
-          <td></td>
-          <td></td>
-          <td>3</td>
-          <td>Un</td>
-        </tr>
-        <tr>
-          <td>Spiked Knuckles</td>
-          <td>Hub</td>
-          <td>4-10</td>
-          <td></td>
-          <td></td>
-          <td>3</td>
-          <td>Un</td>
-        </tr>
-        <tr>
-          <td>Power Fist</td>
-          <td>Brotherhood (Mathia), Boneyard</td>
-          <td>12-24</td>
-          <td>SEC</td>
-          <td>25</td>
-          <td>3</td>
-          <td>Un</td>
-        </tr>
-        <tr>
-          <td>Knife</td>
-          <td>Vault 13</td>
-          <td>1-6</td>
-          <td></td>
-          <td></td>
-          <td>3</td>
-          <td>Me W</td>
-        </tr>
-        <tr>
-          <td>Combat Knife</td>
-          <td>Hub</td>
-          <td>3-10</td>
-          <td></td>
-          <td></td>
-          <td>3</td>
-          <td>Me W</td>
-        </tr>
-        <tr>
-          <td>Ripper</td>
-          <td>Brotherhood, Boneyard</td>
-          <td>15-32</td>
-          <td>SEC</td>
-          <td>30</td>
-          <td>4</td>
-          <td>Me W</td>
-        </tr>
-        <tr>
-          <td>Club</td>
-          <td>Junkt. (boxing guard), Hub (Beth)</td>
-          <td>1-6</td>
-          <td></td>
-          <td></td>
-          <td>3</td>
-          <td>Me W</td>
-        </tr>
-        <tr>
-          <td>Crowbar</td>
-          <td>Vault 13 (thief), Vault 15</td>
-          <td>3-10</td>
-          <td></td>
-          <td></td>
-          <td>4</td>
-          <td>Me W</td>
-        </tr>
-        <tr>
-          <td>Sledgehammer</td>
-          <td>Shady Sands</td>
-          <td>4-9</td>
-          <td></td>
-          <td></td>
-          <td>4</td>
-          <td>Me W</td>
-        </tr>
-        <tr>
-          <td>Super Sledge</td>
-          <td>Hub (Jacob), Brotherhood</td>
-          <td>18-36</td>
-          <td></td>
-          <td></td>
-          <td>3</td>
-          <td>Me W</td>
-        </tr>
-        <tr>
-          <td>Cattle Prod</td>
-          <td>Necrop. (sewers), Boneyard (Zack)</td>
-          <td>12-20</td>
-          <td>SEC</td>
-          <td>20</td>
-          <td>4</td>
-          <td>Me W</td>
-        </tr>
-        <tr>
-          <td>Molotov Cocktail</td>
-          <td>Raiders</td>
-          <td>8-20</td>
-          <td></td>
-          <td></td>
-          <td>5</td>
-          <td>Thr</td>
-        </tr>
-        <tr>
-          <td>Grenade (Frag)</td>
-          <td>Vault 15, Junktown</td>
-          <td>20-35</td>
-          <td></td>
-          <td></td>
-          <td>4</td>
-          <td>Thr</td>
-        </tr>
-        <tr>
-          <td>Grenade (Plasma)</td>
-          <td>Hub (Lorenzo's), Glow</td>
-          <td>40-90</td>
-          <td></td>
-          <td></td>
-          <td>4</td>
-          <td>Thr</td>
-        </tr>
-        <tr>
-          <td>Grenade (Pulse)</td>
-          <td>Hub (Jacob), Glow</td>
-          <td>100-150</td>
-          <td></td>
-          <td></td>
-          <td>4</td>
-          <td>Thr</td>
-        </tr>
-        <tr>
-          <td>Red Ryder BB Gun</td>
-          <td>Shady Sands (child), Junktown</td>
-          <td>1-3</td>
-          <td>BB's</td>
-          <td>100</td>
-          <td>5</td>
-          <td>Sm G</td>
-        </tr>
-        <tr>
-          <td>Red Ryder LE BB Gun</td>
-          <td>Car mart encounter</td>
-          <td>25-25</td>
-          <td>BB's</td>
-          <td>100</td>
-          <td>4</td>
-          <td>Sm G</td>
-        </tr>
-        <tr>
-          <td>10mm Pistol</td>
-          <td>Vault 13</td>
-          <td>5-12</td>
-          <td>10mm</td>
-          <td>12</td>
-          <td>5</td>
-          <td>Sm G</td>
-        </tr>
-        <tr>
-          <td>10mm SMG</td>
-          <td>Vault 15</td>
-          <td>5-12</td>
-          <td>10mm</td>
-          <td>30/10</td>
-          <td>5</td>
-          <td>Sm G</td>
-        </tr>
-        <tr>
-          <td>Desert Eagle .44</td>
-          <td>Raiders</td>
-          <td>10-16</td>
-          <td>.44</td>
-          <td>8</td>
-          <td>5</td>
-          <td>Sm G</td>
-        </tr>
-        <tr>
-          <td>14mm Pistol</td>
-          <td>Junktown (Neal), Hub</td>
-          <td>12-22</td>
-          <td>14mm</td>
-          <td>6</td>
-          <td>5</td>
-          <td>Sm G</td>
-        </tr>
-        <tr>
-          <td>9mm Mauser</td>
-          <td>Junktown (Gizmo)</td>
-          <td>5-10</td>
-          <td>9mm</td>
-          <td>7</td>
-          <td>4</td>
-          <td>Sm G</td>
-        </tr>
-        <tr>
-          <td>Hunting Rifle</td>
-          <td>Shady Sands (Seth), Vault 15</td>
-          <td>8-20</td>
-          <td>.223</td>
-          <td>10</td>
-          <td>5</td>
-          <td>Sm G</td>
-        </tr>
-        <tr>
-          <td>.223 Pistol</td>
-          <td>Hub (Irwin)</td>
-          <td>20-30</td>
-          <td>.223</td>
-          <td>5</td>
-          <td>5</td>
-          <td>Sm G</td>
-        </tr>
-        <tr>
-          <td>Sniper Rifle</td>
-          <td>Hub (Jacob)</td>
-          <td>14-34</td>
-          <td>.223</td>
-          <td>6</td>
-          <td>6</td>
-          <td>Sm G</td>
-        </tr>
-        <tr>
-          <td>Shotgun</td>
-          <td>Vault 13, Raiders</td>
-          <td>12-22</td>
-          <td>12 ga.</td>
-          <td>2</td>
-          <td>5</td>
-          <td>Sm G</td>
-        </tr>
-        <tr>
-          <td>Combat Shotgun</td>
-          <td>Hub</td>
-          <td>15-25</td>
-          <td>12 ga.</td>
-          <td>12/3</td>
-          <td>5</td>
-          <td>Sm G</td>
-        </tr>
-        <tr>
-          <td>Assault Rifle</td>
-          <td>Hub</td>
-          <td>8-16</td>
-          <td>5mm</td>
-          <td>24/8</td>
-          <td>6</td>
-          <td>Sm G</td>
-        </tr>
-        <tr>
-          <td>Flamer</td>
-          <td>Hub (Jacob)</td>
-          <td>45-90</td>
-          <td>Fuel</td>
-          <td>5</td>
-          <td>6</td>
-          <td>Big G</td>
-        </tr>
-        <tr>
-          <td>Minigun</td>
-          <td>Glow, Brotherhood</td>
-          <td>7-11</td>
-          <td>5mm</td>
-          <td>120/40</td>
-          <td>6</td>
-          <td>Big G</td>
-        </tr>
-        <tr>
-          <td>Rocket Launcher</td>
-          <td>Hub (Jacob), Glow</td>
-          <td>35-100</td>
-          <td>Rocket</td>
-          <td>1</td>
-          <td>6</td>
-          <td>Big G</td>
-        </tr>
-        <tr>
-          <td>Laser Pistol</td>
-          <td>Glow, Brotherhood</td>
-          <td>10-22</td>
-          <td>SEC</td>
-          <td>12</td>
-          <td>5</td>
-          <td>En W</td>
-        </tr>
-        <tr>
-          <td>Plasma Pistol</td>
-          <td>Necropolis (sewers), Glow</td>
-          <td>15-35</td>
-          <td>SEC</td>
-          <td>16</td>
-          <td>5</td>
-          <td>En W</td>
-        </tr>
-        <tr>
-          <td>Alien Blaster</td>
-          <td>Spacecraft encounter</td>
-          <td>30-90</td>
-          <td>SEC</td>
-          <td>30</td>
-          <td>4</td>
-          <td>En W</td>
-        </tr>
-        <tr>
-          <td>Laser Rifle</td>
-          <td>Necropolis (Harry)</td>
-          <td>25-50</td>
-          <td>MFC</td>
-          <td>12</td>
-          <td>5</td>
-          <td>En W</td>
-        </tr>
-        <tr>
-          <td>Gatling Laser</td>
-          <td>Brotherhood</td>
-          <td>20-40</td>
-          <td>MFC</td>
-          <td>30/10</td>
-          <td>6</td>
-          <td>En W</td>
-        </tr>
-        <tr>
-          <td>Plasma Rifle</td>
-          <td>Glow, Boneyard</td>
-          <td>30-65</td>
-          <td>MFC</td>
-          <td>10</td>
-          <td>5</td>
-          <td>En W</td>
-        </tr>
-        <tr>
-          <td>Turbo Plasma Rifle</td>
-          <td>Boneyard (Smitty)</td>
-          <td>35-70</td>
-          <td>MFC</td>
-          <td>10</td>
-          <td>4</td>
-          <td>En W</td>
-        </tr>
+        <caption>
+          Weapons:
+        </caption>
+        <colgroup>
+          <col />
+          <col />
+          <col class="tabular" />
+          <col class="tabular" />
+          <col class="tabular" />
+          <col class="tabular" />
+          <col class="tabular" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Location</th>
+            <th scope="col">Damage</th>
+            <th scope="col">Ammo</th>
+            <th scope="col">Clip</th>
+            <th scope="col">AP</th>
+            <th scope="col">Skill</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rock</td>
+            <td>Shady Sands</td>
+            <td>1-4</td>
+            <td></td>
+            <td></td>
+            <td>4/3</td>
+            <td>Thr/Un</td>
+          </tr>
+          <tr>
+            <td>Flare</td>
+            <td>Vault 13</td>
+            <td>1-1</td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>Thr</td>
+          </tr>
+          <tr>
+            <td>Throwing Knife</td>
+            <td>(Vault 13), Raiders</td>
+            <td>3-6</td>
+            <td></td>
+            <td></td>
+            <td>5/4</td>
+            <td>Thr/Me W</td>
+          </tr>
+          <tr>
+            <td>Spear</td>
+            <td>Shady Sands (Aradesh), Raiders</td>
+            <td>3-10</td>
+            <td></td>
+            <td></td>
+            <td>4/6</td>
+            <td>Me W/Thr</td>
+          </tr>
+          <tr>
+            <td>Brass Knuckles</td>
+            <td>(Vault 13), Hub (Beth)</td>
+            <td>2-5</td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td>Un</td>
+          </tr>
+          <tr>
+            <td>Spiked Knuckles</td>
+            <td>Hub</td>
+            <td>4-10</td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td>Un</td>
+          </tr>
+          <tr>
+            <td>Power Fist</td>
+            <td>Brotherhood (Mathia), Boneyard</td>
+            <td>12-24</td>
+            <td>SEC</td>
+            <td>25</td>
+            <td>3</td>
+            <td>Un</td>
+          </tr>
+          <tr>
+            <td>Knife</td>
+            <td>Vault 13</td>
+            <td>1-6</td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td>Me W</td>
+          </tr>
+          <tr>
+            <td>Combat Knife</td>
+            <td>Hub</td>
+            <td>3-10</td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td>Me W</td>
+          </tr>
+          <tr>
+            <td>Ripper</td>
+            <td>Brotherhood, Boneyard</td>
+            <td>15-32</td>
+            <td>SEC</td>
+            <td>30</td>
+            <td>4</td>
+            <td>Me W</td>
+          </tr>
+          <tr>
+            <td>Club</td>
+            <td>Junkt. (boxing guard), Hub (Beth)</td>
+            <td>1-6</td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td>Me W</td>
+          </tr>
+          <tr>
+            <td>Crowbar</td>
+            <td>Vault 13 (thief), Vault 15</td>
+            <td>3-10</td>
+            <td></td>
+            <td></td>
+            <td>4</td>
+            <td>Me W</td>
+          </tr>
+          <tr>
+            <td>Sledgehammer</td>
+            <td>Shady Sands</td>
+            <td>4-9</td>
+            <td></td>
+            <td></td>
+            <td>4</td>
+            <td>Me W</td>
+          </tr>
+          <tr>
+            <td>Super Sledge</td>
+            <td>Hub (Jacob), Brotherhood</td>
+            <td>18-36</td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td>Me W</td>
+          </tr>
+          <tr>
+            <td>Cattle Prod</td>
+            <td>Necrop. (sewers), Boneyard (Zack)</td>
+            <td>12-20</td>
+            <td>SEC</td>
+            <td>20</td>
+            <td>4</td>
+            <td>Me W</td>
+          </tr>
+          <tr>
+            <td>Molotov Cocktail</td>
+            <td>Raiders</td>
+            <td>8-20</td>
+            <td></td>
+            <td></td>
+            <td>5</td>
+            <td>Thr</td>
+          </tr>
+          <tr>
+            <td>Grenade (Frag)</td>
+            <td>Vault 15, Junktown</td>
+            <td>20-35</td>
+            <td></td>
+            <td></td>
+            <td>4</td>
+            <td>Thr</td>
+          </tr>
+          <tr>
+            <td>Grenade (Plasma)</td>
+            <td>Hub (Lorenzo's), Glow</td>
+            <td>40-90</td>
+            <td></td>
+            <td></td>
+            <td>4</td>
+            <td>Thr</td>
+          </tr>
+          <tr>
+            <td>Grenade (Pulse)</td>
+            <td>Hub (Jacob), Glow</td>
+            <td>100-150</td>
+            <td></td>
+            <td></td>
+            <td>4</td>
+            <td>Thr</td>
+          </tr>
+          <tr>
+            <td>Red Ryder BB Gun</td>
+            <td>Shady Sands (child), Junktown</td>
+            <td>1-3</td>
+            <td>BB's</td>
+            <td>100</td>
+            <td>5</td>
+            <td>Sm G</td>
+          </tr>
+          <tr>
+            <td>Red Ryder LE BB Gun</td>
+            <td>Car mart encounter</td>
+            <td>25-25</td>
+            <td>BB's</td>
+            <td>100</td>
+            <td>4</td>
+            <td>Sm G</td>
+          </tr>
+          <tr>
+            <td>10mm Pistol</td>
+            <td>Vault 13</td>
+            <td>5-12</td>
+            <td>10mm</td>
+            <td>12</td>
+            <td>5</td>
+            <td>Sm G</td>
+          </tr>
+          <tr>
+            <td>10mm SMG</td>
+            <td>Vault 15</td>
+            <td>5-12</td>
+            <td>10mm</td>
+            <td>30/10</td>
+            <td>5</td>
+            <td>Sm G</td>
+          </tr>
+          <tr>
+            <td>Desert Eagle .44</td>
+            <td>Raiders</td>
+            <td>10-16</td>
+            <td>.44</td>
+            <td>8</td>
+            <td>5</td>
+            <td>Sm G</td>
+          </tr>
+          <tr>
+            <td>14mm Pistol</td>
+            <td>Junktown (Neal), Hub</td>
+            <td>12-22</td>
+            <td>14mm</td>
+            <td>6</td>
+            <td>5</td>
+            <td>Sm G</td>
+          </tr>
+          <tr>
+            <td>9mm Mauser</td>
+            <td>Junktown (Gizmo)</td>
+            <td>5-10</td>
+            <td>9mm</td>
+            <td>7</td>
+            <td>4</td>
+            <td>Sm G</td>
+          </tr>
+          <tr>
+            <td>Hunting Rifle</td>
+            <td>Shady Sands (Seth), Vault 15</td>
+            <td>8-20</td>
+            <td>.223</td>
+            <td>10</td>
+            <td>5</td>
+            <td>Sm G</td>
+          </tr>
+          <tr>
+            <td>.223 Pistol</td>
+            <td>Hub (Irwin)</td>
+            <td>20-30</td>
+            <td>.223</td>
+            <td>5</td>
+            <td>5</td>
+            <td>Sm G</td>
+          </tr>
+          <tr>
+            <td>Sniper Rifle</td>
+            <td>Hub (Jacob)</td>
+            <td>14-34</td>
+            <td>.223</td>
+            <td>6</td>
+            <td>6</td>
+            <td>Sm G</td>
+          </tr>
+          <tr>
+            <td>Shotgun</td>
+            <td>Vault 13, Raiders</td>
+            <td>12-22</td>
+            <td>12 ga.</td>
+            <td>2</td>
+            <td>5</td>
+            <td>Sm G</td>
+          </tr>
+          <tr>
+            <td>Combat Shotgun</td>
+            <td>Hub</td>
+            <td>15-25</td>
+            <td>12 ga.</td>
+            <td>12/3</td>
+            <td>5</td>
+            <td>Sm G</td>
+          </tr>
+          <tr>
+            <td>Assault Rifle</td>
+            <td>Hub</td>
+            <td>8-16</td>
+            <td>5mm</td>
+            <td>24/8</td>
+            <td>6</td>
+            <td>Sm G</td>
+          </tr>
+          <tr>
+            <td>Flamer</td>
+            <td>Hub (Jacob)</td>
+            <td>45-90</td>
+            <td>Fuel</td>
+            <td>5</td>
+            <td>6</td>
+            <td>Big G</td>
+          </tr>
+          <tr>
+            <td>Minigun</td>
+            <td>Glow, Brotherhood</td>
+            <td>7-11</td>
+            <td>5mm</td>
+            <td>120/40</td>
+            <td>6</td>
+            <td>Big G</td>
+          </tr>
+          <tr>
+            <td>Rocket Launcher</td>
+            <td>Hub (Jacob), Glow</td>
+            <td>35-100</td>
+            <td>Rocket</td>
+            <td>1</td>
+            <td>6</td>
+            <td>Big G</td>
+          </tr>
+          <tr>
+            <td>Laser Pistol</td>
+            <td>Glow, Brotherhood</td>
+            <td>10-22</td>
+            <td>SEC</td>
+            <td>12</td>
+            <td>5</td>
+            <td>En W</td>
+          </tr>
+          <tr>
+            <td>Plasma Pistol</td>
+            <td>Necropolis (sewers), Glow</td>
+            <td>15-35</td>
+            <td>SEC</td>
+            <td>16</td>
+            <td>5</td>
+            <td>En W</td>
+          </tr>
+          <tr>
+            <td>Alien Blaster</td>
+            <td>Spacecraft encounter</td>
+            <td>30-90</td>
+            <td>SEC</td>
+            <td>30</td>
+            <td>4</td>
+            <td>En W</td>
+          </tr>
+          <tr>
+            <td>Laser Rifle</td>
+            <td>Necropolis (Harry)</td>
+            <td>25-50</td>
+            <td>MFC</td>
+            <td>12</td>
+            <td>5</td>
+            <td>En W</td>
+          </tr>
+          <tr>
+            <td>Gatling Laser</td>
+            <td>Brotherhood</td>
+            <td>20-40</td>
+            <td>MFC</td>
+            <td>30/10</td>
+            <td>6</td>
+            <td>En W</td>
+          </tr>
+          <tr>
+            <td>Plasma Rifle</td>
+            <td>Glow, Boneyard</td>
+            <td>30-65</td>
+            <td>MFC</td>
+            <td>10</td>
+            <td>5</td>
+            <td>En W</td>
+          </tr>
+          <tr>
+            <td>Turbo Plasma Rifle</td>
+            <td>Boneyard (Smitty)</td>
+            <td>35-70</td>
+            <td>MFC</td>
+            <td>10</td>
+            <td>4</td>
+            <td>En W</td>
+          </tr>
+        </tbody>
       </table>
 
       <blockquote class="green_star">
@@ -6113,129 +6147,140 @@
         A lit Flare has the exact same damage properties as an unlit Flare.
       </blockquote>
 
-      <p>Ammo:</p>
-
-      <p></p>
       <table>
-        <tr>
-          <td style="width: 200px"><strong>Name</strong></td>
-          <td style="width: 80px"><strong>Dmg mod</strong></td>
-          <td style="width: 80px"><strong>AC mod</strong></td>
-          <td style="width: 80px"><strong>DR mod</strong></td>
-          <td style="width: 200px"><strong>Best weapon</strong></td>
-        </tr>
-        <tr>
-          <td>BB's</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>Red Ryder LE BB Gun</td>
-        </tr>
-        <tr>
-          <td>10mm AP</td>
-          <td>1/2</td>
-          <td></td>
-          <td><span style="white-space: nowrap">-25</span></td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>10mm JHP</td>
-          <td>2/1</td>
-          <td></td>
-          <td>25</td>
-          <td>10mm SMG</td>
-        </tr>
-        <tr>
-          <td>.44 magnum FMJ</td>
-          <td></td>
-          <td></td>
-          <td><span style="white-space: nowrap">-20</span></td>
-          <td>Desert Eagle .44</td>
-        </tr>
-        <tr>
-          <td>.44 Magnum JHP</td>
-          <td>2/1</td>
-          <td></td>
-          <td>50</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>12 ga. Shotgun Shells</td>
-          <td></td>
-          <td><span style="white-space: nowrap">-10</span></td>
-          <td></td>
-          <td>Combat Shotgun</td>
-        </tr>
-        <tr>
-          <td>14mm AP</td>
-          <td>1/2</td>
-          <td></td>
-          <td><span style="white-space: nowrap">-50</span></td>
-          <td>14mm Pistol</td>
-        </tr>
-        <tr>
-          <td>.223 FMJ</td>
-          <td></td>
-          <td><span style="white-space: nowrap">-20</span></td>
-          <td><span style="white-space: nowrap">-20</span></td>
-          <td>.223 Pistol, Sniper Rifle</td>
-        </tr>
-        <tr>
-          <td>9mm ball</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>9mm Mauser</td>
-        </tr>
-        <tr>
-          <td>5mm AP</td>
-          <td>1/2</td>
-          <td></td>
-          <td><span style="white-space: nowrap">35</span></td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>5mm JHP</td>
-          <td>2/1</td>
-          <td></td>
-          <td>-35</td>
-          <td>Minigun</td>
-        </tr>
-        <tr>
-          <td>Small Energy Cell</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>Power Fist, Alien Blaster</td>
-        </tr>
-        <tr>
-          <td>Micro Fusion Cell</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>Turbo Plasma Rifle</td>
-        </tr>
-        <tr>
-          <td>Flamethrower Fuel</td>
-          <td></td>
-          <td><span style="white-space: nowrap">-20</span></td>
-          <td>25</td>
-          <td>Flamer</td>
-        </tr>
-        <tr>
-          <td>Rocket AP</td>
-          <td></td>
-          <td><span style="white-space: nowrap">-15</span></td>
-          <td><span style="white-space: nowrap">-50</span></td>
-          <td>Rocket Launcher</td>
-        </tr>
-        <tr>
-          <td>Explosive Rocket</td>
-          <td></td>
-          <td></td>
-          <td><span style="white-space: nowrap">-25</span></td>
-          <td>Rocket Launcher</td>
-        </tr>
+        <caption>
+          Ammo:
+        </caption>
+        <colgroup>
+          <col />
+          <col class="tabular" />
+          <col class="tabular" />
+          <col class="tabular" />
+          <col />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Dmg mod</th>
+            <th scope="col">AC mod</th>
+            <th scope="col">DR mod</th>
+            <th scope="col">Best weapon</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>BB's</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Red Ryder LE BB Gun</td>
+          </tr>
+          <tr>
+            <td>10mm AP</td>
+            <td>1/2</td>
+            <td></td>
+            <td>-25</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>10mm JHP</td>
+            <td>2/1</td>
+            <td></td>
+            <td>25</td>
+            <td>10mm SMG</td>
+          </tr>
+          <tr>
+            <td>.44 magnum FMJ</td>
+            <td></td>
+            <td></td>
+            <td>-20</td>
+            <td>Desert Eagle .44</td>
+          </tr>
+          <tr>
+            <td>.44 Magnum JHP</td>
+            <td>2/1</td>
+            <td></td>
+            <td>50</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>12 ga. Shotgun Shells</td>
+            <td></td>
+            <td>-10</td>
+            <td></td>
+            <td>Combat Shotgun</td>
+          </tr>
+          <tr>
+            <td>14mm AP</td>
+            <td>1/2</td>
+            <td></td>
+            <td>-50</td>
+            <td>14mm Pistol</td>
+          </tr>
+          <tr>
+            <td>.223 FMJ</td>
+            <td></td>
+            <td>-20</td>
+            <td>-20</td>
+            <td>.223 Pistol, Sniper Rifle</td>
+          </tr>
+          <tr>
+            <td>9mm ball</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>9mm Mauser</td>
+          </tr>
+          <tr>
+            <td>5mm AP</td>
+            <td>1/2</td>
+            <td></td>
+            <td>35</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>5mm JHP</td>
+            <td>2/1</td>
+            <td></td>
+            <td>-35</td>
+            <td>Minigun</td>
+          </tr>
+          <tr>
+            <td>Small Energy Cell</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Power Fist, Alien Blaster</td>
+          </tr>
+          <tr>
+            <td>Micro Fusion Cell</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Turbo Plasma Rifle</td>
+          </tr>
+          <tr>
+            <td>Flamethrower Fuel</td>
+            <td></td>
+            <td>-20</td>
+            <td>25</td>
+            <td>Flamer</td>
+          </tr>
+          <tr>
+            <td>Rocket AP</td>
+            <td></td>
+            <td>-15</td>
+            <td>-50</td>
+            <td>Rocket Launcher</td>
+          </tr>
+          <tr>
+            <td>Explosive Rocket</td>
+            <td></td>
+            <td></td>
+            <td>-25</td>
+            <td>Rocket Launcher</td>
+          </tr>
+        </tbody>
       </table>
 
       <blockquote class="green_star">
@@ -6254,117 +6299,122 @@
         applied somewhere down the line.
       </blockquote>
 
-      <p>
-        Items which can be consumed for an effect (may also have quest use):
-      </p>
-
-      <p></p>
       <table>
-        <tr>
-          <td style="width: 200px"><strong>Name</strong></td>
-          <td style="width: 200px"><strong>Location</strong></td>
-          <td style="width: 80px"><strong>Duration</strong></td>
-          <td style="width: 200px"><strong>Comment</strong></td>
-        </tr>
-        <tr>
-          <td>Psycho</td>
-          <td>Hub</td>
-          <td>4+4 hrs</td>
-          <td>AG +3, IN <span style="white-space: nowrap">-3</span>, DR +50</td>
-        </tr>
-        <tr>
-          <td>Buffout</td>
-          <td>(Vault 13), Raiders</td>
-          <td>6 hrs</td>
-          <td>ST +2, AG +2, EN +3</td>
-        </tr>
-        <tr>
-          <td>Mentats</td>
-          <td>Vault 13, Raiders</td>
-          <td>24 hrs</td>
-          <td>IN +2, PE +2, CH +1</td>
-        </tr>
-        <tr>
-          <td>Antidote</td>
-          <td>Shady Sands (Razlo)</td>
-          <td></td>
-          <td>Poison Level <span style="white-space: nowrap">-75</span></td>
-        </tr>
-        <tr>
-          <td>RadAway</td>
-          <td>Hub</td>
-          <td></td>
-          <td>Radiation Level <span style="white-space: nowrap">-150</span></td>
-        </tr>
-        <tr>
-          <td>Rad-X</td>
-          <td>Hub</td>
-          <td>24+24 hrs</td>
-          <td>Radiation Resistance +50</td>
-        </tr>
-        <tr>
-          <td>Fruit</td>
-          <td>Shady Sands, Raiders</td>
-          <td></td>
-          <td>Current HP +(1-4), Radiation Level +2</td>
-        </tr>
-        <tr>
-          <td>Stimpak</td>
-          <td>Vault 13</td>
-          <td></td>
-          <td>Current HP +(10-20)</td>
-        </tr>
-        <tr>
-          <td>Super Stimpak</td>
-          <td>Hub</td>
-          <td></td>
-          <td>
-            Current HP +75, then <span style="white-space: nowrap">-6</span>,
-            then <span style="white-space: nowrap">-3</span>
-          </td>
-        </tr>
-        <tr>
-          <td>Guns and Bullets</td>
-          <td>Junktown (Gizmo's)</td>
-          <td></td>
-          <td>Raises Small Guns</td>
-        </tr>
-        <tr>
-          <td>Scout Handbook</td>
-          <td>Shady Sands</td>
-          <td></td>
-          <td>Raises Outdoorsman</td>
-        </tr>
-        <tr>
-          <td>Big Book of Science</td>
-          <td>Hub</td>
-          <td></td>
-          <td>Raises Science</td>
-        </tr>
-        <tr>
-          <td>First Aid Book</td>
-          <td>Shady Sands, Vault 15</td>
-          <td></td>
-          <td>Raises First Aid</td>
-        </tr>
-        <tr>
-          <td>Deans Electronics</td>
-          <td>Hub</td>
-          <td></td>
-          <td>Raises Repair</td>
-        </tr>
-        <tr>
-          <td>Beer</td>
-          <td>Raiders</td>
-          <td>1 min</td>
-          <td>PE <span style="white-space: nowrap">-1</span>, slays manti</td>
-        </tr>
-        <tr>
-          <td>Booze</td>
-          <td>Raiders</td>
-          <td>2 mins</td>
-          <td>PE <span style="white-space: nowrap">-1</span></td>
-        </tr>
+        <caption>
+          Items which can be consumed for an effect (may also have quest use):
+        </caption>
+        <colgroup>
+          <col />
+          <col />
+          <col />
+          <col />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Location</th>
+            <th scope="col">Duration</th>
+            <th scope="col">Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Psycho</td>
+            <td>Hub</td>
+            <td>4+4 hrs</td>
+            <td>AG +3, IN -3, DR +50</td>
+          </tr>
+          <tr>
+            <td>Buffout</td>
+            <td>(Vault 13), Raiders</td>
+            <td>6 hrs</td>
+            <td>ST +2, AG +2, EN +3</td>
+          </tr>
+          <tr>
+            <td>Mentats</td>
+            <td>Vault 13, Raiders</td>
+            <td>24 hrs</td>
+            <td>IN +2, PE +2, CH +1</td>
+          </tr>
+          <tr>
+            <td>Antidote</td>
+            <td>Shady Sands (Razlo)</td>
+            <td></td>
+            <td>Poison Level -75</td>
+          </tr>
+          <tr>
+            <td>RadAway</td>
+            <td>Hub</td>
+            <td></td>
+            <td>Radiation Level -150</td>
+          </tr>
+          <tr>
+            <td>Rad-X</td>
+            <td>Hub</td>
+            <td>24+24 hrs</td>
+            <td>Radiation Resistance +50</td>
+          </tr>
+          <tr>
+            <td>Fruit</td>
+            <td>Shady Sands, Raiders</td>
+            <td></td>
+            <td>Current HP +(1-4), Radiation Level +2</td>
+          </tr>
+          <tr>
+            <td>Stimpak</td>
+            <td>Vault 13</td>
+            <td></td>
+            <td>Current HP +(10-20)</td>
+          </tr>
+          <tr>
+            <td>Super Stimpak</td>
+            <td>Hub</td>
+            <td></td>
+            <td>Current HP +75, then -6, then -3</td>
+          </tr>
+          <tr>
+            <td>Guns and Bullets</td>
+            <td>Junktown (Gizmo's)</td>
+            <td></td>
+            <td>Raises Small Guns</td>
+          </tr>
+          <tr>
+            <td>Scout Handbook</td>
+            <td>Shady Sands</td>
+            <td></td>
+            <td>Raises Outdoorsman</td>
+          </tr>
+          <tr>
+            <td>Big Book of Science</td>
+            <td>Hub</td>
+            <td></td>
+            <td>Raises Science</td>
+          </tr>
+          <tr>
+            <td>First Aid Book</td>
+            <td>Shady Sands, Vault 15</td>
+            <td></td>
+            <td>Raises First Aid</td>
+          </tr>
+          <tr>
+            <td>Deans Electronics</td>
+            <td>Hub</td>
+            <td></td>
+            <td>Raises Repair</td>
+          </tr>
+          <tr>
+            <td>Beer</td>
+            <td>Raiders</td>
+            <td>1 min</td>
+            <td>PE -1, slays manti</td>
+          </tr>
+          <tr>
+            <td>Booze</td>
+            <td>Raiders</td>
+            <td>2 mins</td>
+            <td>PE -1</td>
+          </tr>
+        </tbody>
       </table>
 
       <blockquote class="green_star">
@@ -6414,95 +6464,104 @@
         significant difference when I've tried this, though.
       </blockquote>
 
-      <p>Items which have general use (may also have quest use):</p>
-
-      <p></p>
       <table>
-        <tr>
-          <td style="width: 200px"><strong>Name</strong></td>
-          <td style="width: 200px"><strong>Location</strong></td>
-          <td style="width: 200px"><strong>Comment</strong></td>
-        </tr>
-        <tr>
-          <td>Bag</td>
-          <td>Junktown (Killian's, Gizmo's)</td>
-          <td>Round</td>
-        </tr>
-        <tr>
-          <td>Bag</td>
-          <td>Cathedral</td>
-          <td>Rectangular</td>
-        </tr>
-        <tr>
-          <td>Back Pack</td>
-          <td>Junktown (Killian's)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Geiger Counter</td>
-          <td>Junktown (Killian's)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Bottle Caps</td>
-          <td>Shady Sands</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Nuka-Cola</td>
-          <td>Shady Sands, Junktown</td>
-          <td>Mantis repellent!</td>
-        </tr>
-        <tr>
-          <td>Scorpion Tail</td>
-          <td>Shady Sands (scorp caves)</td>
-          <td>Razlo uses</td>
-        </tr>
-        <tr>
-          <td>Dynamite</td>
-          <td>Vault 15, Raiders</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Plastic Explosives</td>
-          <td>Boneyard (Tine, Regulator)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>First Aid Kit</td>
-          <td>Vault 13</td>
-          <td>First Aid +20%</td>
-        </tr>
-        <tr>
-          <td>Doctor's Bag</td>
-          <td>Shady Sands</td>
-          <td>Doctor +20%</td>
-        </tr>
-        <tr>
-          <td>Lock Picks</td>
-          <td>(Vault 13), Raiders</td>
-          <td>Lockpick +20%</td>
-        </tr>
-        <tr>
-          <td>Electronic Lock Pick</td>
-          <td>Hub (Jasmine), MB, Cathedral</td>
-          <td>Lockpick +20%</td>
-        </tr>
-        <tr>
-          <td>Motion Sensor</td>
-          <td>Hub (Mitch)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Stealth Boy</td>
-          <td>Glow, Brotherhood</td>
-          <td>Sneak +20%</td>
-        </tr>
-        <tr>
-          <td>Tool</td>
-          <td>(Vault 13), Junktown (Doc Morbid)</td>
-          <td>Repair +20%</td>
-        </tr>
+        <caption>
+          Items which have general use (may also have quest use):
+        </caption>
+        <colgroup>
+          <col />
+          <col />
+          <col />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Location</th>
+            <th scope="col">Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bag</td>
+            <td>Junktown (Killian's, Gizmo's)</td>
+            <td>Round</td>
+          </tr>
+          <tr>
+            <td>Bag</td>
+            <td>Cathedral</td>
+            <td>Rectangular</td>
+          </tr>
+          <tr>
+            <td>Back Pack</td>
+            <td>Junktown (Killian's)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Geiger Counter</td>
+            <td>Junktown (Killian's)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Bottle Caps</td>
+            <td>Shady Sands</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nuka-Cola</td>
+            <td>Shady Sands, Junktown</td>
+            <td>Mantis repellent!</td>
+          </tr>
+          <tr>
+            <td>Scorpion Tail</td>
+            <td>Shady Sands (scorp caves)</td>
+            <td>Razlo uses</td>
+          </tr>
+          <tr>
+            <td>Dynamite</td>
+            <td>Vault 15, Raiders</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Plastic Explosives</td>
+            <td>Boneyard (Tine, Regulator)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>First Aid Kit</td>
+            <td>Vault 13</td>
+            <td>First Aid +20%</td>
+          </tr>
+          <tr>
+            <td>Doctor's Bag</td>
+            <td>Shady Sands</td>
+            <td>Doctor +20%</td>
+          </tr>
+          <tr>
+            <td>Lock Picks</td>
+            <td>(Vault 13), Raiders</td>
+            <td>Lockpick +20%</td>
+          </tr>
+          <tr>
+            <td>Electronic Lock Pick</td>
+            <td>Hub (Jasmine), MB, Cathedral</td>
+            <td>Lockpick +20%</td>
+          </tr>
+          <tr>
+            <td>Motion Sensor</td>
+            <td>Hub (Mitch)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Stealth Boy</td>
+            <td>Glow, Brotherhood</td>
+            <td>Sneak +20%</td>
+          </tr>
+          <tr>
+            <td>Tool</td>
+            <td>(Vault 13), Junktown (Doc Morbid)</td>
+            <td>Repair +20%</td>
+          </tr>
+        </tbody>
       </table>
 
       <blockquote class="yellow_star">
@@ -6555,270 +6614,297 @@
         another Stealth Boy and turning it on and off.
       </blockquote>
 
-      <p>
-        Items which you barter for but do not normally have independent
-        existence:
-      </p>
-
-      <p></p>
       <table>
-        <tr>
-          <td style="width: 200px"><strong>Name</strong></td>
-          <td style="width: 200px"><strong>Location</strong></td>
-          <td style="width: 200px"><strong>Comment</strong></td>
-        </tr>
-        <tr>
-          <td>Heavy Healing</td>
-          <td>Shady Sands (Razlo)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Light Healing</td>
-          <td>Shady Sands (Razlo)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Medium Healing</td>
-          <td>Shady Sands (Razlo)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Tandi</td>
-          <td>Raiders (Garl)</td>
-          <td></td>
-        </tr>
+        <caption>
+          Items which you barter for but do not normally have independent
+          existence:
+        </caption>
+        <colgroup>
+          <col />
+          <col />
+          <col />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Location</th>
+            <th scope="col">Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Heavy Healing</td>
+            <td>Shady Sands (Razlo)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Light Healing</td>
+            <td>Shady Sands (Razlo)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Medium Healing</td>
+            <td>Shady Sands (Razlo)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Tandi</td>
+            <td>Raiders (Garl)</td>
+            <td></td>
+          </tr>
+        </tbody>
+
+        <tbody></tbody>
       </table>
-      <br />
-      Items which have one-time or one-place use (unless otherwise noted):
 
-      <p></p>
       <table>
-        <tr>
-          <td style="width: 200px"><strong>Name</strong></td>
-          <td style="width: 200px"><strong>Location</strong></td>
-          <td style="width: 200px"><strong>Comment</strong></td>
-        </tr>
-        <tr>
-          <td>Blue Pass Key</td>
-          <td>Glow</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Brotherhood Tape</td>
-          <td>Glow</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Bug</td>
-          <td>Junktown (Killian)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Chemistry Journals</td>
-          <td>Hub (Stapleton)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>COC Badge</td>
-          <td>Cathedral</td>
-          <td>Red</td>
-        </tr>
-        <tr>
-          <td>COC Badge</td>
-          <td>Cathedral (Morpheus, Jeremiah)</td>
-          <td>Black</td>
-        </tr>
-        <tr>
-          <td>Iguana-on-a-stick</td>
-          <td>Junktown</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Iguana-on-a-stick</td>
-          <td>Junktown</td>
-          <td>Different picture</td>
-        </tr>
-        <tr>
-          <td>Junk</td>
-          <td>Hub (Jacob's), Necropolis (sewers)</td>
-          <td>2 quests</td>
-        </tr>
-        <tr>
-          <td>Key</td>
-          <td>Military Base</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Mutant Transmissions</td>
-          <td>Hub (cave)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Necklace</td>
-          <td>Hub (Hightower's)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Psychic Nullifier</td>
-          <td>Cathedral (psychics)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Radio</td>
-          <td>Junktown (Lars), Hub (Mitch, cave)</td>
-          <td>Two uses in MB</td>
-        </tr>
-        <tr>
-          <td>Red Pass Key</td>
-          <td>Glow</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Regulator Transmission</td>
-          <td>Boneyard (Razor)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Rope</td>
-          <td>Shady Sands</td>
-          <td>Vault 15 (two) and Glow</td>
-        </tr>
-        <tr>
-          <td>Security Card</td>
-          <td>Military Base (technicians)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Small Piece Of Machinery</td>
-          <td>Brotherhood</td>
-          <td>A.k.a. systolic motivator</td>
-        </tr>
-        <tr>
-          <td>Tape</td>
-          <td>Military Base (entrance)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Tape Recorder</td>
-          <td>Junktown (Killian)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Urn</td>
-          <td>Junktown (Neal's)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Vree's Experiment Disk</td>
-          <td>Brotherhood (Vree)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Water Chip</td>
-          <td>Necropolis (vault)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Water Flask</td>
-          <td>Vault 13</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Yellow Pass Key</td>
-          <td>Glow</td>
-          <td></td>
-        </tr>
+        <caption>
+          Items which have one-time or one-place use (unless otherwise noted):
+        </caption>
+        <colgroup>
+          <col />
+          <col />
+          <col />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Location</th>
+            <th scope="col">Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Blue Pass Key</td>
+            <td>Glow</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Brotherhood Tape</td>
+            <td>Glow</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Bug</td>
+            <td>Junktown (Killian)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Chemistry Journals</td>
+            <td>Hub (Stapleton)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>COC Badge</td>
+            <td>Cathedral</td>
+            <td>Red</td>
+          </tr>
+          <tr>
+            <td>COC Badge</td>
+            <td>Cathedral (Morpheus, Jeremiah)</td>
+            <td>Black</td>
+          </tr>
+          <tr>
+            <td>Iguana-on-a-stick</td>
+            <td>Junktown</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Iguana-on-a-stick</td>
+            <td>Junktown</td>
+            <td>Different picture</td>
+          </tr>
+          <tr>
+            <td>Junk</td>
+            <td>Hub (Jacob's), Necropolis (sewers)</td>
+            <td>2 quests</td>
+          </tr>
+          <tr>
+            <td>Key</td>
+            <td>Military Base</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Mutant Transmissions</td>
+            <td>Hub (cave)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Necklace</td>
+            <td>Hub (Hightower's)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Psychic Nullifier</td>
+            <td>Cathedral (psychics)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Radio</td>
+            <td>Junktown (Lars), Hub (Mitch, cave)</td>
+            <td>Two uses in MB</td>
+          </tr>
+          <tr>
+            <td>Red Pass Key</td>
+            <td>Glow</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Regulator Transmission</td>
+            <td>Boneyard (Razor)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Rope</td>
+            <td>Shady Sands</td>
+            <td>Vault 15 (two) and Glow</td>
+          </tr>
+          <tr>
+            <td>Security Card</td>
+            <td>Military Base (technicians)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Small Piece Of Machinery</td>
+            <td>Brotherhood</td>
+            <td>A.k.a. systolic motivator</td>
+          </tr>
+          <tr>
+            <td>Tape</td>
+            <td>Military Base (entrance)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Tape Recorder</td>
+            <td>Junktown (Killian)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Urn</td>
+            <td>Junktown (Neal's)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Vree's Experiment Disk</td>
+            <td>Brotherhood (Vree)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Water Chip</td>
+            <td>Necropolis (vault)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Water Flask</td>
+            <td>Vault 13</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Yellow Pass Key</td>
+            <td>Glow</td>
+            <td></td>
+          </tr>
+        </tbody>
       </table>
-      <br />
-      Items which have no known (meaningful) use:
 
-      <p></p>
       <table>
-        <tr>
-          <td style="width: 200px"><strong>Name</strong></td>
-          <td style="width: 200px"><strong>Location</strong></td>
-          <td style="width: 200px"><strong>Comment</strong></td>
-        </tr>
-        <tr>
-          <td>Alpha Experiment Disk</td>
-          <td>Glow</td>
-          <td>Read only</td>
-        </tr>
-        <tr>
-          <td>Box Of Noodles</td>
-          <td>Junktown (Gizmo's)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Brotherhood History</td>
-          <td>Brotherhood (Sophia)</td>
-          <td>Read only</td>
-        </tr>
-        <tr>
-          <td>Delta Experiment Disk</td>
-          <td>Glow</td>
-          <td>Read only</td>
-        </tr>
-        <tr>
-          <td>Dog Tags</td>
-          <td>Junktown (Killian)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>FEV Disk</td>
-          <td>Glow</td>
-          <td>Read only</td>
-        </tr>
-        <tr>
-          <td>Flower</td>
-          <td>Hub (flower child), MB (Flip)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Fuzzy Painting</td>
-          <td>Spacecraft encounter, caravan encounter</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Key Ring</td>
-          <td>Junktown (Killian's)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Lighter</td>
-          <td>Junktown (Gizmo's)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Maxson's History</td>
-          <td>Brotherhood (Maxson)</td>
-          <td>Read only</td>
-        </tr>
-        <tr>
-          <td>Small Dusty Box Of Some Sort</td>
-          <td>Junktown</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Tape</td>
-          <td>Military Base (Lieutenant)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Technical Manual</td>
-          <td>Brotherhood</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Vault Records</td>
-          <td>Hub (Stapleton)</td>
-          <td>Read only</td>
-        </tr>
-        <tr>
-          <td>You Have No Idea</td>
-          <td>Junktown</td>
-          <td>A.k.a. Cat's Paw magazine</td>
-        </tr>
+        <caption>
+          Items which have no known (meaningful) use:
+        </caption>
+        <colgroup>
+          <col />
+          <col />
+          <col />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Location</th>
+            <th scope="col">Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alpha Experiment Disk</td>
+            <td>Glow</td>
+            <td>Read only</td>
+          </tr>
+          <tr>
+            <td>Box Of Noodles</td>
+            <td>Junktown (Gizmo's)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Brotherhood History</td>
+            <td>Brotherhood (Sophia)</td>
+            <td>Read only</td>
+          </tr>
+          <tr>
+            <td>Delta Experiment Disk</td>
+            <td>Glow</td>
+            <td>Read only</td>
+          </tr>
+          <tr>
+            <td>Dog Tags</td>
+            <td>Junktown (Killian)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>FEV Disk</td>
+            <td>Glow</td>
+            <td>Read only</td>
+          </tr>
+          <tr>
+            <td>Flower</td>
+            <td>Hub (flower child), MB (Flip)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Fuzzy Painting</td>
+            <td>Spacecraft encounter, caravan encounter</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Key Ring</td>
+            <td>Junktown (Killian's)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lighter</td>
+            <td>Junktown (Gizmo's)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Maxson's History</td>
+            <td>Brotherhood (Maxson)</td>
+            <td>Read only</td>
+          </tr>
+          <tr>
+            <td>Small Dusty Box Of Some Sort</td>
+            <td>Junktown</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Tape</td>
+            <td>Military Base (Lieutenant)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Technical Manual</td>
+            <td>Brotherhood</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Vault Records</td>
+            <td>Hub (Stapleton)</td>
+            <td>Read only</td>
+          </tr>
+          <tr>
+            <td>You Have No Idea</td>
+            <td>Junktown</td>
+            <td>A.k.a. Cat's Paw magazine</td>
+          </tr>
+        </tbody>
       </table>
 
       <blockquote class="green_star">
@@ -6834,33 +6920,34 @@
         instead of a very small box.
       </blockquote>
 
-      <p>List of addiction effects:</p>
-
-      <p></p>
       <table>
-        <tr>
-          <td style="width: 200px"><strong>Item</strong></td>
-          <td style="width: 100px"><strong>Risk</strong></td>
-          <td style="width: 200px"><strong>Effect</strong></td>
-          <td style="width: 50px"><strong>Duration</strong></td>
-        </tr>
+        <caption>
+          List of addiction effects:
+        </caption>
+        <colgroup>
+          <col />
+          <col class="tabular" />
+          <col />
+          <col />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Item</th>
+            <th scope="col">Risk</th>
+            <th scope="col">Effect</th>
+            <th scope="col">Duration</th>
+          </tr>
+        </thead>
         <tr>
           <td>Buffout</td>
           <td>25% (21%)</td>
-          <td>
-            ST <span style="white-space: nowrap">-2</span>, EN
-            <span style="white-space: nowrap">-2</span>, AG
-            <span style="white-space: nowrap">-3</span>
-          </td>
+          <td>ST -2, EN -2, AG -3</td>
           <td>7 days</td>
         </tr>
         <tr>
           <td>Mentats</td>
           <td>15% (18%)</td>
-          <td>
-            IN <span style="white-space: nowrap">-3</span>, AG
-            <span style="white-space: nowrap">-2</span>
-          </td>
+          <td>IN -3, AG -2</td>
           <td>7 days</td>
         </tr>
         <tr>
@@ -6872,15 +6959,13 @@
         <tr>
           <td>Psycho</td>
           <td>20% (19%)</td>
-          <td>IN <span style="white-space: nowrap">-2</span></td>
+          <td>IN -2</td>
           <td>7 days</td>
         </tr>
         <tr>
           <td>RadAway</td>
           <td>10% (10%)</td>
-          <td>
-            Radiation Resistance <span style="white-space: nowrap">-20</span>
-          </td>
+          <td>Radiation Resistance -20</td>
           <td>7 days</td>
         </tr>
       </table>
@@ -6895,165 +6980,175 @@
 
       <h3 id="addenda">Addenda</h3>
 
-      <blockquote id="opening-quote">
+      <blockquote class="opening-quote">
         "Love is what makes the cactus grow! Love is what makes the brahmin
         moo!"<br />
         --Dane
       </blockquote>
 
       <p>Miscellaneous stuff.</p>
+
       <h4>Talking heads</h4>
-      Let's see... the Overseer, Tandi, Aradesh, Killian, Gizmo, Butch, Harold,
-      Loxley, Decker, Jain, Set, Harry, Cabbot, Rhombus, Vree, Maxson, Nicole,
-      the Lieutenant, Laura, Morpheus, the Master. That's a lot of talking
-      heads!
+      <p>
+        Let's see... the Overseer, Tandi, Aradesh, Killian, Gizmo, Butch,
+        Harold, Loxley, Decker, Jain, Set, Harry, Cabbot, Rhombus, Vree, Maxson,
+        Nicole, the Lieutenant, Laura, Morpheus, the Master. That's a lot of
+        talking heads!
+      </p>
+
       <h4>Bugs</h4>
-      Some bugs that I've experienced or uncovered in v1.2 (localized bugs that
-      affect gameplay are covered in the walkthrough):
-
       <p>
-        Saving the game near an irritable person and loading can cause them to
-        attack "unprovoked". For instance, I saved the game after Kalnor had
-        warned me that I shouldn't enter Junktown at night. When I loaded he was
-        hostile, apparently thinking he had given me a warning and time to back
-        away. Saving in combat mode while in the Hub and loading can cause the
-        guards to attack, but if you immediately reload the same save they might
-        not.
+        Some bugs that I've experienced or uncovered in v1.2 (localized bugs
+        that affect gameplay are covered in the walkthrough):
       </p>
 
-      <p>
-        Saving in the middle of combat can also cause critters to sequence
-        before you upon reloading, effectively giving them an extra turn.
-      </p>
+      <ul>
+        <li>
+          Saving the game near an irritable person and loading can cause them to
+          attack "unprovoked". For instance, I saved the game after Kalnor had
+          warned me that I shouldn't enter Junktown at night. When I loaded he
+          was hostile, apparently thinking he had given me a warning and time to
+          back away. Saving in combat mode while in the Hub and loading can
+          cause the guards to attack, but if you immediately reload the same
+          save they might not.
+        </li>
 
-      <p>
-        Died of radiation sickness for no apparent reason while resting in the
-        Brotherhood.
-      </p>
+        <li>
+          Saving in the middle of combat can also cause critters to sequence
+          before you upon reloading, effectively giving them an extra turn.
+        </li>
 
-      <p>
-        NPCs go "apathetic" during some battles and don't seem to think it's
-        that important to attack whomever you're attacking.
-      </p>
+        <li>
+          Died of radiation sickness for no apparent reason while resting in the
+          Brotherhood.
+        </li>
 
-      <p>
-        Once I killed everyone in the Brotherhood and still got the good ending
-        for them.
-      </p>
+        <li>
+          NPCs go "apathetic" during some battles and don't seem to think it's
+          that important to attack whomever you're attacking.
+        </li>
 
-      <p>
-        Some large bookcases are technically two pieces of scenery (as pointed
-        out by Kahgan, the reason for this is so the whole bookcase can display
-        properly with regard to perspective), and if you happen to click the
-        wrong one your character fiddles with it only to generate a message
-        saying it's too heavy to pick up.
-      </p>
+        <li>
+          Once I killed everyone in the Brotherhood and still got the good
+          ending for them.
+        </li>
 
-      <p>
-        Razlo threw a Flare at me in Shady Sands that got stuck in its
-        "airborne" animation frame and remained there even after I left and
-        returned. I've also a couple of times thrown Flares into walls and had
-        to run to the other side of the wall to pick them up.
-      </p>
+        <li>
+          Some large bookcases are technically two pieces of scenery (as pointed
+          out by Kahgan, the reason for this is so the whole bookcase can
+          display properly with regard to perspective), and if you happen to
+          click the wrong one your character fiddles with it only to generate a
+          message saying it's too heavy to pick up.
+        </li>
 
-      <p>
-        I rested in the Skum Pitt until 2 p.m. when Neal runs to open the door,
-        then rested again until the Skulz showed up, and triggered the scripted
-        sequence. Neal started walking from the door to get behind the counter,
-        leaving the Skulz time to finish their part of the sequence and walk out
-        of the bar. When Neal arrived behind the counter he drew his gun and
-        blasted the moving Skul at maximum range through a closed door.
-      </p>
+        <li>
+          Razlo threw a Flare at me in Shady Sands that got stuck in its
+          "airborne" animation frame and remained there even after I left and
+          returned. I've also a couple of times thrown Flares into walls and had
+          to run to the other side of the wall to pick them up.
+        </li>
 
-      <p>
-        A couple of fighters stood about in Gustofer's ring, and hovering the
-        mouse pointer over them would yield the description "Desk". When the
-        next fight started, the new challenger appeared in the wrong position,
-        so that both fighters were punching at air.
-      </p>
+        <li>
+          I rested in the Skum Pitt until 2 p.m. when Neal runs to open the
+          door, then rested again until the Skulz showed up, and triggered the
+          scripted sequence. Neal started walking from the door to get behind
+          the counter, leaving the Skulz time to finish their part of the
+          sequence and walk out of the bar. When Neal arrived behind the counter
+          he drew his gun and blasted the moving Skul at maximum range through a
+          closed door.
+        </li>
 
-      <p>
-        You were supposed to be able to fix the Saul/Trish relationship by
-        talking to Saul first, then telling Trish she must let him keep on
-        fighting if he wants to. This would have been done by talking to Trish
-        in her room in the Crash House, for which there are several dialogue
-        nodes - but all the time she's there, she's asleep and incommunicable.
-      </p>
+        <li>
+          A couple of fighters stood about in Gustofer's ring, and hovering the
+          mouse pointer over them would yield the description "Desk". When the
+          next fight started, the new challenger appeared in the wrong position,
+          so that both fighters were punching at air.
+        </li>
 
-      <p>
-        On several occasions Ian has refused to follow me around on the Junktown
-        casino map. This is likely related to the Dogmeat following bug, the
-        guard allegiance bug, the Lars duplication bug, the boxing display bug,
-        crashes and/or other strange goings-on reported as having taken place on
-        this map - scripts simply tend to break down here. (Note how on the town
-        map it's represented by a green <em>triangle</em>.)
-      </p>
+        <li>
+          You were supposed to be able to fix the Saul/Trish relationship by
+          talking to Saul first, then telling Trish she must let him keep on
+          fighting if he wants to. This would have been done by talking to Trish
+          in her room in the Crash House, for which there are several dialogue
+          nodes - but all the time she's there, she's asleep and incommunicable.
+        </li>
 
-      <p>
-        If a party member dies while walking through a red forcefield in the
-        Military Base, they may leave a frozen "death by electricity" animation
-        frame behind, or even complete their movement animation and leave a
-        standing corpse. Meanwhile their stuff is dropped on the ground in the
-        forcefield, unless violence is set to none or minimal.
-      </p>
+        <li>
+          On several occasions Ian has refused to follow me around on the
+          Junktown casino map. This is likely related to the Dogmeat following
+          bug, the guard allegiance bug, the Lars duplication bug, the boxing
+          display bug, crashes and/or other strange goings-on reported as having
+          taken place on this map - scripts simply tend to break down here.
+          (Note how on the town map it's represented by a green
+          <em>triangle</em>.)
+        </li>
 
-      <p>
-        If you talk to Nicole more than once while stupid, you get a voice
-        sample along with her floats until you've been in conversation with
-        someone else. More like an oddity than a bug, perhaps.
-      </p>
+        <li>
+          If a party member dies while walking through a red forcefield in the
+          Military Base, they may leave a frozen "death by electricity"
+          animation frame behind, or even complete their movement animation and
+          leave a standing corpse. Meanwhile their stuff is dropped on the
+          ground in the forcefield, unless violence is set to none or minimal.
+        </li>
 
-      <p>
-        The inventory window only displays the first three digits of weight
-        carried, e.g. "104" if you are carrying 1040 pounds of goods. You'll
-        never reach that kind of figure unless you barter an inordinate amount
-        of heavy things from someone.
-      </p>
+        <li>
+          If you talk to Nicole more than once while stupid, you get a voice
+          sample along with her floats until you've been in conversation with
+          someone else. More like an oddity than a bug, perhaps.
+        </li>
 
-      <p>The Follower invaders use Brotherhood combat taunts.</p>
+        <li>
+          The inventory window only displays the first three digits of weight
+          carried, e.g. "104" if you are carrying 1040 pounds of goods. You'll
+          never reach that kind of figure unless you barter an inordinate amount
+          of heavy things from someone.
+        </li>
 
-      <p>
-        If a critter dies from Super Stimpak damage while performing a fidget
-        animation, it momentarily drops to the ground, then repeats the
-        animation and leaves a standing corpse.
-      </p>
+        <li>The Follower invaders use Brotherhood combat taunts.</li>
 
-      <p>
-        You can close a door while standing in the doorway, and then step in
-        either direction like a Schrödinger's Vault Dweller.
-      </p>
+        <li>
+          If a critter dies from Super Stimpak damage while performing a fidget
+          animation, it momentarily drops to the ground, then repeats the
+          animation and leaves a standing corpse.
+        </li>
 
-      <p>
-        The reserve movement command in combat works only if you don't press
-        down Ctrl until your turn has begun, which is not how you normally
-        expect meta keys to function.
-      </p>
+        <li>
+          You can close a door while standing in the doorway, and then step in
+          either direction like a Schrödinger's Vault Dweller.
+        </li>
 
-      <p>
-        Katja is the only NPC with skill points in Energy Weapons, but she
-        doesn't have the ability to use any of them. Ian and Katja both have
-        useless skill points in Big Guns.
-      </p>
+        <li>
+          The reserve movement command in combat works only if you don't press
+          down Ctrl until your turn has begun, which is not how you normally
+          expect meta keys to function.
+        </li>
 
-      <p>
-        Using explosives to damage the Military Base forcefields only turns them
-        off if you make a Traps roll. However, failing the roll instead turns
-        the emitter invisible so that you can pass beside the field.
-      </p>
+        <li>
+          Katja is the only NPC with skill points in Energy Weapons, but she
+          doesn't have the ability to use any of them. Ian and Katja both have
+          useless skill points in Big Guns.
+        </li>
 
-      <p>
-        There are three computers in the Military Base related to forcefields
-        that don't do much of anything, either because they try to affect a set
-        of unused forcefields scripts, or fail to properly affect the ones in
-        place, or both.
-      </p>
+        <li>
+          Using explosives to damage the Military Base forcefields only turns
+          them off if you make a Traps roll. However, failing the roll instead
+          turns the emitter invisible so that you can pass beside the field.
+        </li>
 
-      <p>
-        The mother deathclaw is identified as a "he" when examined. The game
-        also refers to some robots as "he", while Dogmeat is called both "it"
-        and "he". Deathclaw eggs are "he" and add to the "men" kill category
-        when slain.
-      </p>
+        <li>
+          There are three computers in the Military Base related to forcefields
+          that don't do much of anything, either because they try to affect a
+          set of unused forcefields scripts, or fail to properly affect the ones
+          in place, or both.
+        </li>
+
+        <li>
+          The mother deathclaw is identified as a "he" when examined. The game
+          also refers to some robots as "he", while Dogmeat is called both "it"
+          and "he". Deathclaw eggs are "he" and add to the "men" kill category
+          when slain.
+        </li>
+      </ul>
 
       <h4>How to finish the game in twenty minutes (if you hurry up)</h4>
       Start a new character with PE 8, good IN and AG. Tag Unarmed, Lockpick and
@@ -7158,7 +7253,8 @@
           end the demo.
         </li>
       </ul>
-      Bits and pieces of info include:
+
+      <p>Bits and pieces of info include:</p>
       <ul>
         <li>Stimpaks always restore 12 HP.</li>
         <li>
@@ -7224,8 +7320,8 @@
         </li>
         <li>
           The demo has the
-          <span style="white-space: nowrap">Ctrl-R</span> recording mode
-          available, and there are a few brief recordings to watch.
+          <kbd>Ctrl-R</kbd> recording mode available, and there are a few brief
+          recordings to watch.
         </li>
         <li>
           The enclosed manual states there were to be fifteen areas in the full
@@ -7233,7 +7329,9 @@
           Vipers) and the Burrows as seen in the <em>Fallout Bible</em>.
         </li>
       </ul>
-      And thus ends the demo section.
+
+      <p>And thus ends the demo section.</p>
+
       <h4>
         Things that will bug you severely if you've played <em>Fallout 2</em>
       </h4>

@@ -6,7 +6,6 @@ Contains a backup of the original work (in the [files](https://github.com/Petric
 
 ---
 - Restored the background from the original version.
-- Changed the default font.
 - Justified the text body (inital reason for this entire endeavor).
 - Moved style elements from HTML to CSS.
 - Used more modern HTML conventions (e.g. `<b>` -> `<strong>`).

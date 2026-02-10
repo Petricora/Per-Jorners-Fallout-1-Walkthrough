@@ -53,7 +53,7 @@ body {
   font-feature-settings:
     "zero" 1,
     "liga" 1;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: justify;
   background-image: url("library.gif");
   background-repeat: repeat;

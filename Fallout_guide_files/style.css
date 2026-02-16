@@ -74,7 +74,7 @@ header h1 {
 }
 
 header h2 {
-  font-size: 21px;
+  font-size: 1.313rem;
   margin-top: 50px;
   margin-bottom: 0;
 }
@@ -266,7 +266,7 @@ table:has(col:nth-child(10).tabular) td:nth-child(10) {
   right: 12%;
   background-color: #efefef;
   color: #000000;
-  font-size: 21px;
+  font-size: 1.25rem;
   border: 1px solid #2e6da4;
   border-radius: 4px;
   line-height: 1.3333333;
@@ -292,7 +292,7 @@ table:has(col:nth-child(10).tabular) td:nth-child(10) {
   padding: 0.25em;
   background-color: #efefef;
   color: #000000;
-  font-size: 21px;
+  font-size: 1.313rem;
   border: 1px solid #2e6da4;
   border-radius: 4px;
   text-decoration: none;

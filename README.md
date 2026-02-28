@@ -2,7 +2,8 @@
 
 A modernized edit of the excellent Fallout 1&2 guides written by Per Jorner. No changes were made to the text itself.
 
-Contains a backup of the original work (in the [files](https://github.com/Petricora/Per-Jorners-Fallout-1-Walkthrough/tree/master/Fallout_guide_files) folder) should its source ever be lost.
+Contains a backup of the original work (in the [files](https://github.com/Petricora/Per-Jorners-Fallout-1-Walkthrough/tree/master/Fallout_guide_files) folder) should its source ever be lost.  
+Forked from Lemmings19's [Fallout1](https://github.com/Lemmings19/fallout-1-walkthrough) and [Fallout2](https://github.com/Lemmings19/fallout-2-walkthrough) repos.
 
 ---
 - Restored the background from the original version.
